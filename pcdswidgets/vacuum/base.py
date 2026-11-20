@@ -49,6 +49,7 @@ class PCDSSymbolBase(QWidget, PyDMPrimitiveWidget, ContentLocation):
         The parent widget for this symbol.
     """
 
+    # This must be in qt designer, or child widgets can't use ContentLocation!
     _qt_designer_ = {
         "group": "Non-Widget Base Classes",
         "is_container": False,
