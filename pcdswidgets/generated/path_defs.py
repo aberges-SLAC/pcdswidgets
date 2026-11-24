@@ -59,6 +59,7 @@ WIDGET_PATHS = {
     "ControlValve": "pcdswidgets.vacuum.valves:ControlValve",
     "EPSByteIndicator": "pcdswidgets.eps_byteindicator:EPSByteIndicator",
     "EpicsRoiFull": "pcdswidgets.imaging.common.epics_roi_full:EpicsRoiFull",
+    "ExpertScreenLauncher": "pcdswidgets.common.tools.expert_screen_launcher:ExpertScreenLauncher",
     "ExposureTimingControlFull": "pcdswidgets.imaging.common.exposure_timing_control_full:ExposureTimingControlFull",
     "FastShutter": "pcdswidgets.vacuum.valves:FastShutter",
     "FeatureFinder": "pcdswidgets.common.tools.feature_finder:FeatureFinder",
